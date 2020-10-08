@@ -1,0 +1,3 @@
+# curl -fs "https://api.duckduckgo.com/?q=ip&format=json" | jq -r '.Answer'
+
+Your IP address is X.X.X.X in <a href="https://duckduckgo.com/?q=<location></a>
