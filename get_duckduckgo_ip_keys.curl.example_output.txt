@@ -1,3 +1,29 @@
 # curl -fs "https://api.duckduckgo.com/?q=ip&format=json" | jq -r '.Answer'
 
 Your IP address is X.X.X.X in <a href="https://duckduckgo.com/?q=<location></a>
+
+
+# curl -fs "https://api.duckduckgo.com/?q=ip&format=json" | jq 'keys'
+[
+  "Abstract",
+  "AbstractSource",
+  "AbstractText",
+  "AbstractURL",
+  "Answer",
+  "AnswerType",
+  "Definition",
+  "DefinitionSource",
+  "DefinitionURL",
+  "Entity",
+  "Heading",
+  "Image",
+  "ImageHeight",
+  "ImageIsLogo",
+  "ImageWidth",
+  "Infobox",
+  "Redirect",
+  "RelatedTopics",
+  "Results",
+  "Type",
+  "meta"
+]
