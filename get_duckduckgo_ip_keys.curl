@@ -1,0 +1,4 @@
+ # Get IP query from duckduckgo.com
+ # Created by Tony Casanova October 7, 2020
+ #
+ curl -fs "https://api.duckduckgo.com/?q=ip&format=json" | jq 'keys'
